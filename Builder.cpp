@@ -55,9 +55,7 @@ public:
 	}
 
 	void createNewToyProduct() {
-		if (!toy) {
-			toy = new Toy;
-		}
+		toy = new Toy;
 	}
 
 	virtual void buildShape() = 0;
